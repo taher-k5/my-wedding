@@ -16,77 +16,7 @@
         <link rel="stylesheet" href="css/flaticon.css">
         <link rel="stylesheet" href="css/gijgo.css">
         <link rel="stylesheet" href="css/slicknav.css">
-        <link rel="stylesheet" href="css/style.css">
-        <script nonce="046875eb-c453-4958-94f8-a4faf4c74041">
-            (function(w, d) {
-                !function(t, u, v, w) {
-                    t[v] = t[v] || {};
-                    t[v].executed = [];
-                    t.zaraz = {
-                        deferred: [],
-                        listeners: []
-                    };
-                    t.zaraz.q = [];
-                    t.zaraz._f = function(x) {
-                        return async function() {
-                            var y = Array.prototype.slice.call(arguments);
-                            t.zaraz.q.push({
-                                m: x,
-                                a: y
-                            })
-                        }
-                    }
-                    ;
-                    for (const z of ["track", "set", "debug"])
-                        t.zaraz[z] = t.zaraz._f(z);
-                    t.zaraz.init = ()=>{
-                        var A = u.getElementsByTagName(w)[0]
-                          , B = u.createElement(w)
-                          , C = u.getElementsByTagName("title")[0];
-                        C && (t[v].t = u.getElementsByTagName("title")[0].text);
-                        t[v].x = Math.random();
-                        t[v].w = t.screen.width;
-                        t[v].h = t.screen.height;
-                        t[v].j = t.innerHeight;
-                        t[v].e = t.innerWidth;
-                        t[v].l = t.location.href;
-                        t[v].r = u.referrer;
-                        t[v].k = t.screen.colorDepth;
-                        t[v].n = u.characterSet;
-                        t[v].o = (new Date).getTimezoneOffset();
-                        if (t.dataLayer)
-                            for (const G of Object.entries(Object.entries(dataLayer).reduce(((H,I)=>({
-                                ...H[1],
-                                ...I[1]
-                            })), {})))
-                                zaraz.set(G[0], G[1], {
-                                    scope: "page"
-                                });
-                        t[v].q = [];
-                        for (; t.zaraz.q.length; ) {
-                            const J = t.zaraz.q.shift();
-                            t[v].q.push(J)
-                        }
-                        B.defer = !0;
-                        for (const K of [localStorage, sessionStorage])
-                            Object.keys(K || {}).filter((M=>M.startsWith("_zaraz_"))).forEach((L=>{
-                                try {
-                                    t[v]["z_" + L.slice(7)] = JSON.parse(K.getItem(L))
-                                } catch {
-                                    t[v]["z_" + L.slice(7)] = K.getItem(L)
-                                }
-                            }
-                            ));
-                        B.referrerPolicy = "origin";
-                        B.src = "/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(t[v])));
-                        A.parentNode.insertBefore(B, A)
-                    }
-                    ;
-                    ["complete", "interactive"].includes(u.readyState) ? zaraz.init() : t.addEventListener("DOMContentLoaded", zaraz.init)
-                }(w, d, "zarazData", "script");
-            }
-            )(window, document);
-        </script>
+        <link rel="stylesheet" href="css/style.css">        
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -116,33 +46,7 @@
                                             </li>
                                             <li>
                                                 <a href="Gallery.html">Gallery</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    blog <i class="ti-angle-down"></i>
-                                                </a>
-                                                <ul class="submenu">
-                                                    <li>
-                                                        <a href="blog.html">blog</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="single-blog.html">single-blog</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    pages <i class="ti-angle-down"></i>
-                                                </a>
-                                                <ul class="submenu">
-                                                    <li>
-                                                        <a href="Accommodation.html">Accommodation</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="elements.html">elements</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
+                                            </li>                                                                                      
                                             <li>
                                                 <a href="contact.html">Contact</a>
                                             </li>
@@ -163,9 +67,9 @@
                 <div class="slider_text text-center">
                     <div class="text_inner">
                         <img src="img/banner/ornaments.png" alt>
-                        <h4>14 Jan 2020</h4>
+                        <h4>15/16 November 2023</h4>
                         <h3>
-                            Anjelina & Jack <br>Wedding Ceremony
+                            Sakina & Taher <br>Wedding Ceremony
                         </h3>
                         <span>Get Married</span>
                     </div>
@@ -184,7 +88,7 @@
                     <div class="col-xl-12">
                         <div class="section_title text-center">
                             <img src="img/banner/flowers.png" alt>
-                            <span>14. January. 2020</span>
+                            <span>15/16. November. 2023</span>
                             <h3>THE. WEDDING. Countdown</h3>
                         </div>
                     </div>
@@ -213,7 +117,7 @@
                                 <img src="img/story/1.png" alt>
                             </div>
                             <span>Groom</span>
-                            <h3>Jack Wonner</h3>
+                            <h3>Taher kathiriya</h3>
                             <p>Many variations of passages of Lorem Ipsum available, but the majority have suffered
 alteration in some content of a page when looking at its layout. The point of using Lorem
 Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
@@ -268,7 +172,7 @@ alteration in some.</p>
                                 <img src="img/story/2.png" alt>
                             </div>
                             <span>Bride</span>
-                            <h3>Anjelina Kona</h3>
+                            <h3>Sakina Bhabhra</h3>
                             <p>Many variations of passages of Lorem Ipsum available, but the majority have suffered
 alteration in some content of a page when looking at its layout. The point of using Lorem
 Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
@@ -809,7 +713,7 @@ alteration in some content of a page when looking at its layout. </p>
         <script src="js/mail-script.js"></script>
         <script src="js/main.js"></script>
         <script>
-            $('#clock').countdown('2020/01/07', function(event) {
+            $('#clock').countdown('2023/11/16', function(event) {
                 $(this).html(event.strftime('<div class="countdown_wrap d-flex"><div  class="single_countdown"><h3>%D</h3><span>Days</span></div><div class="single_countdown"><h3>%H</h3><span>Hours</span></div><div class="single_countdown"><h3>%M</h3><span>Minutes</span></div><div class="single_countdown"><h3>%S</h3><span>Seconds</span></div></div>'));
             });
         </script>
