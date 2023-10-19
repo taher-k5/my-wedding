@@ -681,7 +681,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/banner/main-banner.jpg);
 }
 
 /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
@@ -753,6 +753,7 @@ h3 {
   -moz-border-radius: 50%;
   border-radius: 50%;
   z-index: 10;
+  opacity: 0.8;
 }
 
 @media (max-width: 767px) {
@@ -1346,6 +1347,7 @@ h3 {
   border-radius: 50%;
   position: relative;
   margin: auto;
+  overflow: hidden;
 }
 
 /* line 16, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
