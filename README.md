@@ -1,2 +1,2 @@
 # my-wedding
-This is my wedding site.
+This is my weddings  site.
